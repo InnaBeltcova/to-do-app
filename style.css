@@ -1,0 +1,19 @@
+.mdl-layout__header {
+   background: url(./Images/back.jpg) center / cover;
+   height: 45vh;
+   justify-content: center;
+   text-align: center;
+ }
+.mdl-button {
+  background-color: #c6faff;
+}
+h1 {
+  color: #000000;
+  font-weight: bold;
+}
+button {
+  background-color: #00bcd4;
+}
+.mdl-grid {
+  padding-left: 50px;
+}
