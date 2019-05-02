@@ -1,6 +1,7 @@
 function onReady() {
   const addToDoForm = document.getElementById('addToDoForm');
   var toDos = JSON.parse(localStorage.getItem('forstorage'));
+  if (toDos == null) toDos = [];
   let id = 0;
 
   function renderTheUI() {
